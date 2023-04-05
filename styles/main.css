@@ -1,7 +1,6 @@
 html { 
     scroll-behavior: smooth;
 }
-
 body{
     font-family: 'Manrope', sans-serif;
     margin: 0 auto;
@@ -14,7 +13,6 @@ body{
     width: 1400px;
     background-color: #ffffff;
     padding-bottom: 149px;
-   
 }
 .interior {
     width: 1150px; 
@@ -23,10 +21,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 115px;
-
 }
-   
-
 h1 { 
     width: 956px;
     height: 120px;
@@ -42,12 +37,10 @@ h1 {
     margin-top: 128px;
 
 }
-
 .image-text {
     position: absolute;
     width: 430px;
     height: 81px;
-
     color: #FFFFFF;
     padding-left: 40px;
     padding-top: 380px;
@@ -80,49 +73,15 @@ a {
     margin-left: 125px;
     margin-top: 30px;
     padding: 20px 40px;
+    cursor: pointer;
     text-decoration: none;
     background-color: #AD1818;
     border-radius: 5px;
     border: none;
     color: #ffffff 
 }
-
-.container2 {
+.container__two {
     margin: 0px auto;
     width: 1400px;
     background-color: #ffffff;
-
-}
-h3 {
-    width: 79px;
-    height: 25px;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    letter-spacing: -0.03em;
-    padding-left: 125px;
-    padding-bottom: 20px;
-    color: #121212
-}
-
-.divan{
-    Width: 1150px;
-    Height: 548px;
-    background-image: url(../resources/Divan.png);
-    background-repeat: no-repeat;
-    margin-left: 125px;
-}
-.sofa {
-    width: 520px;
-    height: 41px;
-    color: #121212;
-    font-size: 30px;
-    line-height: 41px;
-    font-weight: 400;
-    letter-spacing: -0.03em;
-    margin-top: auto;
-    
-
-
-
 }
