@@ -17,6 +17,7 @@ body {
     padding-bottom: 149px;
 }
 
+
 .interior {
     width: 1150px;
     height: 500px;
@@ -24,12 +25,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 115px;
-}
-
-h1,
-h2,
-h3 {
-    letter-spacing: -0.03em;
 }
 
 h1 {
@@ -44,8 +39,37 @@ h1 {
     margin-left: 115px;
     padding-bottom: 32px;
     margin-top: 128px;
+}
+
+h2 {
+    height: 25px;
+    width: 51px;
+    padding-top: 100px;
+    padding-left: 125px;
+    text-transform: uppercase;
+}
+
+h3 {
+    height: 41px;
+    width: 542px;
+    padding-left: 125px;
+    font-size: 30px;
+    line-height: 41px;
 
 }
+
+h1,
+h2,
+h3 {
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+.section {
+    padding: 150px 125px 0 125px;
+}
+
+
 
 .image-text {
     position: absolute;
@@ -60,14 +84,6 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-h2 {
-    height: 25px;
-    width: 51px;
-    padding-top: 100px;
-    padding-left: 125px;
-    text-transform: uppercase;
-}
-
 p.description {
     Width: 1048px;
     Height: 366px;
@@ -75,13 +91,14 @@ p.description {
     padding-left: 125px;
     font-size: 45px;
     font-weight: 400;
-    line-height: 61px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
 }
 
 a.btn {
     display: table;
     margin-left: 125px;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 20px 40px;
     cursor: pointer;
     text-decoration: none;
@@ -91,20 +108,12 @@ a.btn {
     color: #ffffff
 }
 
-
-h3 {
-    height: 41px;
-    width: 542px;
-    padding-left: 125px;
-    font-size: 30px;
-    line-height: 41px;
-    color: #121212;
-}
 .project__image {
     padding-left: 125px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
 .project__title {
     margin-top: 15px;
 }
@@ -112,6 +121,7 @@ h3 {
 .projects .project {
     margin-top: 90px;
 }
+
 .projects :nth-last-child(3) {
     margin-top: 10px;
 }
@@ -126,6 +136,7 @@ h3 {
     padding-left: 125px;
     margin-bottom: 15px;
 }
+
 .fullwidtbtn {
     display: block;
     width: 1157px;
@@ -140,7 +151,39 @@ h3 {
     font-size: 30px;
     letter-spacing: -0.03em;
 }
+
 .fullwidtbtn:hover {
     background-color: #AD1818;
     color: #FFFFFF;
+}
+
+.section-long {
+    padding-bottom: 150px;
+}
+
+.section-black {
+    background-color: #000;
+    
+}
+
+.section-black h1,
+h2,
+h3 {
+    color: #FFF;
+}
+
+.services__image {
+    Width: 1150px;
+    Height: 270px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.services {
+    margin-top: 34px;
+
+}
+
+.services .service {
+    margin-top: 60px;
 }
